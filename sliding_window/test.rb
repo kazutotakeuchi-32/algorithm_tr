@@ -19,7 +19,6 @@ def sliding_window(array,size = 3)
         i += 1
 
     end
-    p max
     max 
 end
 
