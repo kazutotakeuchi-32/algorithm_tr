@@ -14,3 +14,7 @@ def contains_duplicate(nums)
 
     false
 end
+
+def contains_duplicate(nums)
+    return nums.length != nums.uniq.length
+end
